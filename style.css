@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
     padding: 5%;
-    background-color: blue;
+    background-color: aqua;
 }
 .video{
     display: flex;
@@ -11,6 +11,6 @@ body{
 }
 .titulo{
     font-family: Montserrat;
-    font-size:5rem;
+    font-size:1.5rem;
     text-align: center;
 }
