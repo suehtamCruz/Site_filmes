@@ -7,6 +7,23 @@
     <title>Site Videos</title>
 </head>
 <body>
+   
+    <nav class="menu-mobile">
+        <ul >
+            <li ><a href="./acao.html">Ação</a></li>
+            <li > <a href="#">Aventura</a></li>
+            <li > <a href="#">Drama</a></li>
+            <li > <a href="#">Terror</a></li>
+        </ul>
+    </nav>
+    <span class="btn-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+     </span>
+
+
+
     <nav class="menu">
 
         <ul class="menu_lista">
@@ -23,6 +40,8 @@
         
     </div>
 </div>
-    
+<script>$('.btn-menu').on('click touchstart', function () {
+    $('html').toggleClass('btn-menu-active');
+  });</script>
 </body>
 </html>

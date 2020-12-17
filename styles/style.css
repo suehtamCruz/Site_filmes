@@ -8,9 +8,21 @@ a{
     text-decoration: none;
 }
 
+@media screen and (max-width:699px){
+    .menu {
+        display: none;
+    }
+   
+}
 
+/* Style para desktop e tablets */
 @media screen and (min-width:700px){
-
+    .menu-mobile{
+        display: none;
+    }
+    .btn-menu{
+        display: none;
+    }
     .container{
         padding: 7%;
     
