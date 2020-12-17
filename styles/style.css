@@ -7,12 +7,56 @@ body{
 a{
     text-decoration: none;
 }
+li{
 
+    margin: 0;
+    list-style: none;
+}
 @media screen and (max-width:699px){
     .menu {
         display: none;
     }
-   
+    .menu-mobile ul{
+        
+        padding: 0 !important;
+    }
+   .btnMenu_open{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .img_btnClose{
+       margin: 1rem;
+    }
+    .btnMenu_close{
+        background-color: #747c81;
+        
+        width: 100%;
+    }
+    .menu-item-action{
+        color: #747c81;
+        font-family: Montserrat;
+        text-transform: uppercase;
+    }
+    .menu-item{
+    
+        border-bottom: 1px solid #7d8183;
+        margin-top: 1rem;
+         padding: 0.75rem;
+    }
+    .menu-mob{
+        position: absolute;
+        margin-top:0;
+        top:0;
+        left:0;
+        width: 100%;
+
+        transform: translateX(-100%);
+        transition: transform 200ms linear;
+    }
+    .menu-mob_open{
+        transform: translateX(0);
+    }
 }
 
 /* Style para desktop e tablets */
