@@ -1,8 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
-    padding: 5%;
+    padding: 0;
+    margin: 0;
     background-color: aqua;
 }
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 7%;
+
+}
+.menu{
+    background-color: black;
+    width: 100%;
+}
+.menu_lista{
+    margin-top: 0 !important;
+    padding:1rem !important;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+.menu_lista .menu_items{
+    align-items: center;
+    justify-content: center;
+    margin: 0 4rem 0 4rem;
+}
+.menu_items a{ 
+    color:white;
+
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+.menu_items a:hover{
+    color:#b6b6b6;
+    cursor: pointer;
+    -webkit-transition: 0.2s ease-in;
+}
+
 .video{
     display: flex;
     justify-content: center;
