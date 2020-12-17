@@ -56,6 +56,11 @@ li{
     }
     .menu-mob_open{
         transform: translateX(0);
+        
+    }
+    .container{
+        transition: transform 200ms linear;
+        padding: 5%;
     }
 }
 
@@ -102,15 +107,5 @@ li{
         -webkit-transition: 0.2s ease-in;
     }
     
-    .video{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-    }
-    .titulo{
-        font-family: Montserrat;
-        font-size:1.5rem;
-        text-align: center;
-    }
+   
 }

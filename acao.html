@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="acao.css"> -->
+    <link rel="stylesheet" href="./styles/acao.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Ação</title>
 </head>
 <body>
     
+    <nav class="menu-mobile">
+        <a href="#">  <img src="./src/menuHambPreto.png" alt="open menu imagem"  class="btnMenu btnMenu_open">  </a>
+
+        <ul id="menu" class="menu-mob">
+            <li class="btnMenu btnMenu_close"><img src="./src/menuHambBRanco.png" alt="close menu imagem" class="img_btnClose"></li>
+            <li class="menu-item"><a href="./index.html" class="menu-item-action">Home</a></li>
+            <li class="menu-item"> <a href="#" class="menu-item-action">Aventura</a></li>
+            <li class="menu-item"> <a href="#" class="menu-item-action">Drama</a></li>
+            <li class="menu-item"> <a href="#" class="menu-item-action">Terror</a></li>
+        </ul>
+    </nav>
 
     <nav class="menu">
 
         <ul class="menu_lista">
             <li class="menu_items" ><a href="./index.html">Home</a></li>
-            <li class="menu_items" ><a href="#">Ação</a></li>
             <li class="menu_items"> <a href="#">Aventura</a></li>
             <li class="menu_items"> <a href="#">Drama</a></li>
             <li class="menu_items"> <a href="#">Terror</a></li>
@@ -22,12 +32,11 @@
     </nav>
     <div class="container">
 
-    
-
         <h1 class="titulo">CLube dos 5 - 1985 audio original</h1>
-    <div class="video">
-        <iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/mSBRUKaC#fZxHvWCGTFKzuFVLApSBz0LKZMLzwmrAKqMfpVgnpe0" allowfullscreen ></iframe>
+        <div class="video">
+            <iframe frameborder="0" src="https://mega.nz/embed/mSBRUKaC#fZxHvWCGTFKzuFVLApSBz0LKZMLzwmrAKqMfpVgnpe0" allowfullscreen  class="video"></iframe>
+        </div>
     </div>
-</div>
+    <script src="script.js"></script>
 </body>
 </html>
