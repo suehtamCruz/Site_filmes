@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@media screen and (max-width:699px){
+   
+   .container_down{
+        transform: translateY(250px);
+        transition: transform 200ms linear;
+    }
+    .titulo{
+        font-family: Montserrat;
+        font-size: 1.5rem;
+
+        text-align: center;
+    }
+    .video{
+        width: 100% !important; 
+        height: 400px !important;
+    }
+}
+@media screen and (min-width:700px){
+    .video{
+        display: flex;
+        justify-content: center;
+        width: 100% !important; 
+        height: 600px !important;
+    }
+    .titulo{
+        font-family: Montserrat;
+        font-size:2.5rem;
+        text-align: center;
+    }
+}
