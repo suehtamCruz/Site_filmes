@@ -3,7 +3,7 @@
 @media screen and (max-width:699px){
    
    .container_down{
-        transform: translateY(250px);
+        transform: translateY(310px);
         transition: transform 200ms linear;
     }
     .titulo{
